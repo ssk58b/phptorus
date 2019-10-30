@@ -1,0 +1,24 @@
+<?php 
+// PHP program to calculate volume  
+// and surface area of Torus  
+  
+// radus of inner circle  
+$r = 3;  
+  
+// distance from origin to center  
+// of inner circle radius of black 
+// circle in figure  
+$R = 7;  
+  
+// Value of Pi  
+$pi = (float)3.14159;  
+$Volume = 0;  
+$Volume = 2 * $pi * $pi * $R * $r * $r;  
+  
+echo "Volume: ", $Volume, "\n";  
+  
+$Surface = 4 * $pi * $pi * $R * $r;  
+  
+echo "Surface: ", $Surface, "\n";  
+      
+?> 
